@@ -1,0 +1,64 @@
+int Func factorial (int n, str text) {      
+    my int result;
+    OUT text;
+    result = 1;
+    my int i;
+    Cycle 1...n{
+      result=result*i;
+    }
+    return text;
+}
+
+
+bool Func is_even(int num) {
+    my int check;
+    check = num & 1;
+    return check == 0;
+}
+
+Main{
+    my int x = 5;
+    my int y;
+    y = 10;
+    OUT x;
+    OUT y;
+    
+    my int sum;
+    sum = x + y;
+    OUT sum;
+    my int bit_and;
+    bit_and = 4 | 6;
+    OUT bit_and;
+    my int bit_not;
+    bit_not = ~x;
+    OUT bit_not;
+    my bool less;
+    less = x < y;
+    OUT less;
+    my char letter;
+    letter = 'П';
+    OUT letter;
+
+    my str text;
+    text = "GFSDавв";
+    OUT text;
+    my int i;
+    Cycle 1...3 {
+        OUT i;
+    }
+
+    my int fact;
+    fact = factorial(2,"Пример 2 параметра");
+    OUT fact;
+    my bool even;
+    even = is_even(5);
+    OUT even;
+
+    my int mod;
+    mod = abs(-4);
+    OUT mod;
+    my int pow_res;
+    pow_res = pow(2, 3);
+    OUT pow_res;
+}
+

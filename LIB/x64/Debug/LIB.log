@@ -1,0 +1,22 @@
+﻿Сборка начата 10.12.2025 1:32:15.
+Уровень детализации журнала: Normal.     1>Проект "D:\Уник\Лабы\Лабы КПО\NAI-2025\LIB\LIB.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Debug\LIB.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"D:\Уник\Лабы\Лабы КПО\NAI-2025\x64\Debug\LIB.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt LIB.cpp
+         LIB.cpp
+       Lib:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\Lib.exe /OUT:"D:\Уник\Лабы\Лабы КПО\NAI-2025\x64\Debug\LIB.lib" /NOLOGO /MACHINE:X64 x64\Debug\LIB.obj
+         LIB.vcxproj -> D:\Уник\Лабы\Лабы КПО\NAI-2025\x64\Debug\LIB.lib
+       FinalizeBuildStatus:
+         Файл "x64\Debug\LIB.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\LIB.tlog\LIB.lastbuildstate".
+     1>Сборка проекта "D:\Уник\Лабы\Лабы КПО\NAI-2025\LIB\LIB.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.91

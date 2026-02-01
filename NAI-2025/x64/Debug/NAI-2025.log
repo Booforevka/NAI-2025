@@ -1,0 +1,59 @@
+﻿Сборка начата 10.12.2025 1:32:15.
+Уровень детализации журнала: Normal.     1>Проект "D:\Уник\Лабы\Лабы КПО\NAI-2025\NAI-2025\NAI-2025.vcxproj" в узле 3 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Создание "x64\Debug\NAI-2025.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\NAI-2025.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt CodeGeneration.cpp Error.cpp GRB.cpp IT.cpp In.cpp LA.cpp LT.cpp Log.cpp MFST.cpp "NAI-2025.cpp" Out.cpp Parm.cpp PolishNotation.cpp SA.cpp
+         CodeGeneration.cpp
+         Error.cpp
+         GRB.cpp
+         IT.cpp
+         In.cpp
+         LA.cpp
+         LT.cpp
+         Log.cpp
+         MFST.cpp
+     1>D:\Уник\Лабы\Лабы КПО\NAI-2025\NAI-2025\MFST.cpp(284,36): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         NAI-2025.cpp
+         Out.cpp
+         Parm.cpp
+         PolishNotation.cpp
+     1>D:\Уник\Лабы\Лабы КПО\NAI-2025\NAI-2025\PolishNotation.cpp(36,13): warning C4101: temp: неиспользованная локальная переменная
+         SA.cpp
+         Создание кода...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Уник\Лабы\Лабы КПО\NAI-2025\x64\Debug\NAI-2025.exe" /INCREMENTAL /ILK:"x64\Debug\NAI-2025.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Уник\Лабы\Лабы КПО\NAI-2025\x64\Debug\NAI-2025.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Уник\Лабы\Лабы КПО\NAI-2025\x64\Debug\NAI-2025.lib" /MACHINE:X64 x64\Debug\CodeGeneration.obj
+         x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\GRB.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         x64\Debug\LA.obj
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\MFST.obj
+         "x64\Debug\NAI-2025.obj"
+         x64\Debug\Out.obj
+         x64\Debug\Parm.obj
+         x64\Debug\PolishNotation.obj
+         x64\Debug\SA.obj
+         NAI-2025.vcxproj -> D:\Уник\Лабы\Лабы КПО\NAI-2025\x64\Debug\NAI-2025.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\NAI-2025.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\NAI-2025.tlog\NAI-2025.lastbuildstate".
+     1>Сборка проекта "D:\Уник\Лабы\Лабы КПО\NAI-2025\NAI-2025\NAI-2025.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Уник\Лабы\Лабы КПО\NAI-2025\NAI-2025\NAI-2025.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Уник\Лабы\Лабы КПО\NAI-2025\NAI-2025\MFST.cpp(284,36): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         D:\Уник\Лабы\Лабы КПО\NAI-2025\NAI-2025\PolishNotation.cpp(36,13): warning C4101: temp: неиспользованная локальная переменная
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:08.96
